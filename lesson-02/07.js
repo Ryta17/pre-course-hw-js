@@ -8,16 +8,17 @@ let passportMarried = {
     
 };
 
-let passportMarried_new = {
+let passportMarried2 = {
     address: {
         country: "USA",
         city: "Bobryisk"
     },
-    married: true,
     name: "Petr",
     surname: "Petrov"
     
 };
 
+passportMarried2.married = 'true';
+
 console.log(passportMarried);
-console.log(passportMarried_new);
+console.log(passportMarried2);
