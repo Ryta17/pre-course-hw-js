@@ -1,20 +1,22 @@
 let passportMarried = {
-    married: true,
-    name: "Petr",
-    surname: "Petrov",
     address: {
         country: "USA",
         city: "Bobryisk"
-    }
+    },
+    name: "Petr",
+    surname: "Petrov"
+    
 };
 
 let passportMarried_new = {
-    name: "Petr",
-    surname: "Petrov",
     address: {
         country: "USA",
         city: "Bobryisk"
-    }
+    },
+    married: true,
+    name: "Petr",
+    surname: "Petrov"
+    
 };
 
 console.log(passportMarried);
