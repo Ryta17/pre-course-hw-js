@@ -18,12 +18,13 @@ const users2 = [
         address: '789 Oak St'
     },
 ];
-
-users2[users2.length] = {
+const newObj = {
     id: 4,
     user: 'Ivan',
     surName: 'Susanin',
     address: 'Unknown'
 }
+
+users2[users2.length] = newObj
 
 console.log(users2);
